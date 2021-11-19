@@ -87,7 +87,7 @@ def add_time(start, duration, day=False):
         else:
             period_end = 'PM'
             hour_end = hour_end - 12
-
+    #Retorna o resultado
     if day:
         if days_later > 0:
             day_end = None
